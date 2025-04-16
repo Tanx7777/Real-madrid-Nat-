@@ -6,8 +6,89 @@ margin: 0;
 header{
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
 }
 header >div{
     display: flex;
+}
+.header-branco{
+    display: flex;
     justify-content: space-between;
+    height: 80px;
+    align-items: center;
+    padding: 10px 20px;
+}
+nav{
+    display: flex;
+     gap: 15px;
+
+}
+.login{
+    display: flex;
+    gap: 10px;
+
+}
+header img,.img-header img, .login img { 
+ width: 40px;
+}
+.img-header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header-azul{
+    display: flex;
+    height: 100px;
+    background-color: rgb(11, 11, 88);
+    color: #ffffff;
+    justify-content: space-between;
+    padding: 10px 20px;
+    align-items: center;
+}
+.titulo-placar {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+.placar {
+    display: flex;
+    gap: 20px;
+justify-content: center;
+
+}
+.header-azul h1{
+    font-size: 0.8em;
+
+}
+.placar p{
+    font-size: 2em;
+}
+.header-azul button{
+    padding: 10px 30px;
+    background: none;
+    border: 1px solid #ffffff;
+    color: #ffffff;
+    border-radius: 10px;
+}
+.img-centro{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.img-centro img{
+    width: 40%;
+    border-radius: 10px 0 0 10px;
+}
+main{
+    padding: 80px 40px ;
+    display: flex;
+    flex-direction: column;
+gap: 40px;
+}
+.img-centro p {
+width: 40%;
+font-size: 2em;
+text-align: center;
+color: rgb(17, 17, 94);
 }
