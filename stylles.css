@@ -92,3 +92,23 @@ font-size: 2em;
 text-align: center;
 color: rgb(17, 17, 94);
 }
+
+.card{
+    width: 360px;
+  
+}
+.card img{
+width: 100%;
+}
+.cards{
+    display: flex;
+    justify-content: space-between;
+}
+.propaganda{
+display: flex;
+align-items: center;
+width: 100%;
+}
+.propaganda img{
+    width: 100%;
+}
